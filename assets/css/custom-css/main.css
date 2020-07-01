@@ -1,0 +1,32 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.custom-wrapper {
+    margin: 0 auto;
+    padding: 1.5rem 8.75rem;
+}
+
+@media screen and ( max-width: 1245px) {
+    .custom-wrapper {
+        padding: 1.5rem 4rem;
+    }
+}
+
+@media screen and ( max-width: 1105px) {
+    .custom-wrapper {
+        padding: 1.5rem 1rem;
+    }
+}
+/* bmi calculator css */
+.big-banner {
+    background-image: url('../../img/bmi-banner.png');
+    background-size: cover;
+}
+.end-banner {
+    background-image: url('../../img/bmi-end.png');
+    background-size: cover;
+}
+.table-body {
+    color: #ffffff;
+    font-weight: bold;
+}
